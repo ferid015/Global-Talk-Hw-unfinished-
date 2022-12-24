@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    background-color: #F6F5F4;
+}
+
+.container {
+    width: 1180px;
+}
+
+
+:root {
+    --DelaTit: 'Dela Gothic One', cursive;
+    --MontTit: 'Montserrat', sans-serif;
+
+}
+
+
+header #header_left h1 {
+    font: 400 20.5px var(--DelaTit);
+    font-style: normal;
+    padding-top: 11px;
+}
+
+
+
+
+
+
+header #header_middle ul li {
+    padding: 0 15px;
+    padding-top: 15px;
+}
+
+header #header_middle ul li a {
+    font: 600 16px var(--MontTit);
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+header #header_middle ul li a:hover {
+    opacity: 1;
+}
+
+
+header #header_right ul li {
+    padding: 0 15px;
+}
+
+
+#right_icon {
+    display: inline-block;
+    width: 41px;
+    height: 40px;
+    border-radius: 26px;
+    background-color: #C3DCE3;
+    position: relative;
+}
+
+#right_icon a {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2B788B !important;
+}
+
+/* header {
+    width: 1180px;
+    margin: auto;
+} */
+
+header #header_right button {
+    font: 600 16px var(--MontTit);
+    font-style: normal;
+    color: #757575;
+    text-decoration: none;
+    text-align: right;
+    border: none;
+    background-color: #F6F5F4;
+}
+
+#right_name_img {
+    padding-right: 10px;
+}
+
+#right_bold {
+    font: bold 16px var(--MontTit) !important;
+    font-style: normal !important;
+    color: black !important;
+}
+
+.d_none {
+    color: #ffffff;
+}
+
+#top {
+    width: 1080px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* #top_left li {
+    padding: 10px 20px;
+}
+
+#top_left li a {
+    font: 400 26px var(--DelaTit);
+    font-style: normal;
+    line-height: 100%;
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+
+#top_left li a:hover {
+    transition: all 0.3s;
+    opacity: 1;
+}
+
+#top_left li i {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    left: 209px;
+} */
+
+
+/* #top_right li {
+    width: 146px;
+    height: 44px;
+    background-color: #E0E0E0;
+    border-radius: 14px;
+}
+
+#top_right li a {
+    width: 146px;
+    height: 44px;
+    font: bold 16px var(--MontTit);
+    font-style: normal;
+    text-decoration: none;
+}
+
+#top_right .top_right_pink a {
+    color: #945069 ;
+}
+
+#top_right .top_right_pink:hover {
+background-color: #F2D4DC;
+color: #945069;
+
+} */
+
+#top_left {
+    position: relative;
+}
+
+#top button {
+    padding: 20px 0;
+}
+
+#top_left button {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    background-color: #ffffff;
+    border: none;
+    padding-left: 55px;
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+#top_left button:hover {
+    opacity: 1;
+}
+
+#top_left img {
+    width: 28px;
+    height: 23.88px;
+}
+
+#top_left .top_img_hat {
+    position: absolute;
+    top: 27px;
+    left: 23px;
+}
+
+#top_left .top_img_book {
+    position: absolute;
+    top: 29px;
+    left: 251px;
+}
+
+
+
+
+
+#top_right {
+    position: relative;
+}
+
+
+#top_left .top_btn_right {
+    padding-left: 30px;
+}
+
+#top_right .pink {
+    padding: 14px 53px;
+    position: relative;
+    border-radius: 14px;
+    font: bold 16px var(--MontTit);
+    border: none;
+    color: #945069;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+
+#top_right .pink:hover {
+    background-color: #F2D4DC;
+
+}
+
+#top_right .pink_shoes {
+    position: absolute;
+    top: 0;
+    right: 112px;
+}
+
+
+#top_right .blue {
+    padding: 14px 59px;
+    position: relative;
+    border-radius: 14px;
+    font: bold 16px var(--MontTit);
+    border: none;
+    color: #2B788B;
+    transition: all 0.3s;
+    margin-right: 10px;
+
+}
+
+#top_right .blue:hover {
+    background-color: #C3DCE3;
+}
+
+
+#top_right .blue_horn {
+    position: absolute;
+    top: 0;
+    right: 161px;
+}
+
+
+#top_right .settings {
+    border: none;
+    padding: 10px 12px;
+    border-radius: 5px;
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+#top_right .settings:hover {
+    opacity: 1;
+}
+
+
+
+.body_right {
+    background-color: #fff;
+    border-radius: 0 14px 14px 0;
+}
+
+
+#main_body_top .ferid {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main_body_top .main_top {
+    padding: 0 20px;
+    text-align: center;
+}
+
+#main_body_top .main_top:hover {
+    border-bottom: 1px solid #000000;
+}
+
+
+#main_body_top div p {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    color: #000000;
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+#main_body_top div p:hover {
+    opacity: 1;
+    /* border-bottom: 2px solid #000000; */
+}
+
+
+#main_body_top div button {
+    padding: 4px 8px;
+    opacity: 0.5;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+}
+
+#main_body_top .green {
+    color: #639B6D;
+    background-color: rgba(99, 155, 109, 0.3);
+}
+
+#main_body_top .yellow {
+    color: #C4A24C;
+    background-color: rgba(196, 162, 76, 0.3);
+}
+
+#main_body_top .red  {
+    color: #CB5B43;
+    background-color: rgba(203, 91, 67, 0.3);
+}
+
+
+
+
+
+
+#main_body img {
+    border-radius: 14px 0 0 14px;
+}
+
+
+
+.music_icn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F6F5F4;
+}
+
+
+
+#main_body .body_right .body_h {
+    font: 400 32px var(--DelaTit);
+    font-style: normal;
+    line-height: 100%;
+    padding: 15px 33px 0 40px;
+}
+
+#main_body .body_right .body_h .alt_h {
+    opacity: 0.5;
+}
+
+#main_body .body_right .bottom_pr p {
+    font: 500 16px var(--MontTit);
+    font-style: normal;
+    line-height: 150%;
+    margin: 0 33px 0 40px;
+    padding-bottom: 12px;
+}
+
+#main_body .body_right .bottom_pr .alt_p {
+    opacity: 0.5;
+    margin: 0 33px -20px 40px;
+    padding-top: 12px;
+}
+
+#main_body .body_right .transcr {
+    font: 600 18px var(--MontTit);
+    font-style: normal;
+    line-height: 140%;
+    padding: 21.5px 40px;
+}
+
+#main_body .body_right .transcr button {
+    padding: 4px 12px;
+    margin-left: 10px;
+    border: none;
+    background-color: #CB5B43;
+    color: #F6F5F4;
+    border-radius: 4px;
+}
+
+
+
+#main_body .body_right .bottom_btn button {
+    font: bold 16px var(--MontTit);
+    font-style: normal;
+    line-height: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 100px;
+    margin-top: 25px;
+}
+
+#main_body .body_right .bottom_btn .body_btn_left {
+    background-color: #639B6D;
+    margin-left: 40px;
+    color: #F6F5F4;
+}
+
+#main_body .body_right .bottom_btn .body_btn_right {
+    background-color: rgba(203, 91, 67, 0.3);
+    color: #CB5B43;
+    margin-left: 20px;
+
+}
+
+
+#last {
+    padding-bottom: 40px;
+}
+
+#last #last_main {
+    display: flex;
+    justify-content: center;
+}
+
+#last #last_main p {
+    margin: 60px 12px;
+    color: #757575;
+    font: 600 18px var(--MontTit);
+    font-style: normal;
+    line-height: 140%;
+}
+
+
+#last #last_main button {
+    width: 44px;
+    height: 44px;
+    font: bold 16px var(--MontTit);
+    font-style: normal;
+    line-height: 100%;
+    border: 3px solid #5996A5;
+    border-radius: 100px;
+    margin: 40px 12px;
+    color: #5996A5;
+    transition: all 0.3s;
+}
+
+#last #last_main button:hover {
+    background-color: #5996A5;
+    color: #fff;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font: 600 14px var(--MontTit);
+    font-style: normal;
+    line-height: 100%;
+    color: #000000;
+    opacity: 0.5;
+    padding: 0 15px;
+    transition: all 0.3s;
+}
+
+footer ul li a:hover {
+    opacity: 1;
+    color: #000000;
+}
+
+footer p {
+    font: 600 12px var(--MontTit);
+    font-style: normal;
+    line-height: 100%;
+    opacity: 0.5;
+    text-align: end;
+}
